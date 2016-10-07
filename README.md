@@ -1,6 +1,5 @@
+##################################################################################################
 # Simple-app-that-shows-a-list-of-IP-addresses-viewing-the-page
-
-
 Guidelines
 
 You MUST include installation instructions so that it can be run locally be other developers.
@@ -24,3 +23,17 @@ Does the solution run locally based on the provided instructions?
 Does the solution make good use of tools/frameworks/libraries/APIs?
 Does the implementation follow established best practices (design patterns, language usage, code formatting, etc..)?
 Does the implementation use a sound design? What is the efficiency of the design? What happens at scale?
+##################################################################################################
+
+
+how to start app?
+
+Make sure you have installed git, node+npm
+
+command to execute
+
+npm install 
+node app.js
+
+
+

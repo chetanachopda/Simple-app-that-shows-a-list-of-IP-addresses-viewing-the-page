@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+		<title> Visting page </title>		
+	</head>
+	<body>
+		<script>
+			var socket = io.connect();
+			socket.on('users', function(data){
+				$('#ip_list').text(data.date)
+			})
+		</script>
+		<div>Simple-app-that-shows-a-list-of-IP-addresses-viewing-the-page</div>
+		<div id="ip_list"></div>
+	</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "show_ips_viewsing_the_page",
+  "version": "1.0.0",
+  "description": "Simple-app-that-shows-a-list-of-IP-addresses-viewing-the-page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetanachopda/Simple-app-that-shows-a-list-of-IP-addresses-viewing-the-page.git"
+  },
+  "author": "Chetan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetanachopda/Simple-app-that-shows-a-list-of-IP-addresses-viewing-the-page/issues"
+  },
+  "homepage": "https://github.com/chetanachopda/Simple-app-that-shows-a-list-of-IP-addresses-viewing-the-page#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.0"
+  }
+}
