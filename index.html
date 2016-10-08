@@ -62,8 +62,8 @@
 		var ipList = $('#ipList');
 		socket.on('users', function(data){
 			ipList.html('');
-			$.each(data.date, function(key, value){
-				ipList.append('<li class="list-group-item">' + value + '</li>');
+			$.each(data.users, function(key, value){	
+				ipList.append('<li class="list-group-item">' + key + '</li>');
 			});
 		})
 	  });
